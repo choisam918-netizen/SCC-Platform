@@ -1,0 +1,120 @@
+{
+  "name": "SCC Platform - 多元學習子系統整合平台",
+  "short_name": "SCC Platform",
+  "description": "多元學習子系統整合平台，包含足球戰術、數學練習、打字練習、抽籤、分組、計分排名等功能",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "zh-TW",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "足球戰術系統",
+      "short_name": "足球戰術",
+      "description": "足球戰術與管理系統",
+      "url": "./football/index.html",
+      "icons": [
+        {
+          "src": "./football/football.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "數學四則運算練習",
+      "short_name": "數學練習",
+      "description": "小學數學四則運算練習",
+      "url": "./math/index.html",
+      "icons": [
+        {
+          "src": "./math/Lovepik_com-380042738-math-calculator-symbol-compute.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "打字練習系統",
+      "short_name": "打字練習",
+      "description": "小學生打字練習系統",
+      "url": "./typeanything/index.html",
+      "icons": [
+        {
+          "src": "./typeanything/1.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "學號抽籤系統",
+      "short_name": "抽籤",
+      "description": "學號抽籤系統",
+      "url": "./ramdom/index.html",
+      "icons": [
+        {
+          "src": "./ramdom/1.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "分組工具",
+      "short_name": "分組",
+      "description": "小組分配與管理工具",
+      "url": "./group/group.html",
+      "icons": [
+        {
+          "src": "./group/1.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "計分排名系統",
+      "short_name": "計分排名",
+      "description": "計分排名系統",
+      "url": "./Rank/index.html",
+      "icons": [
+        {
+          "src": "./Rank/1.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

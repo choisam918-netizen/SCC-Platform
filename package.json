@@ -1,0 +1,18 @@
+{
+  "name": "scc-platform-web",
+  "version": "1.0.0",
+  "description": "SCC Platform - 多元學習子系統整合平台網頁版",
+  "main": "index.html",
+  "scripts": {
+    "open": "start index.html"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "platform",
+    "web",
+    "html"
+  ],
+  "author": "SCC Platform Team",
+  "license": "MIT"
+}
